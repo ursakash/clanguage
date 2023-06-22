@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int a,s;
-    printf("enter a number");
-    scanf("%d",&a);
-    s=a*a;
-    printf("square of %d is %d",a,s);
+    int a,l,b;
+    printf("enter length and bregth is a rectangle");
+    scanf("%d%d",&l,&b);
+    a=l*b;
+    printf("area of %d is %d",l,b);
     return 0;
-}6
+}
