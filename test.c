@@ -1,7 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int a=5,b=6;
-    printf("sum of %d and %d is %d",a,b,a+b);
+    int a,s;
+    printf("enter a number");
+    scanf("%d",&a);
+    s=a*a;
+    printf("square of %d is %d",a,s);
     return 0;
-}
+}6
