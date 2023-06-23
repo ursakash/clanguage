@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int a,l,b;
-    printf("enter length and bregth is a rectangle");
-    scanf("%d%d",&l,&b);
-    a=l*b;
-    printf("area of %d is %d",l,b);
+    int r;
+    float a;
+    printf("enter radius of a circle");
+    scanf("%d",&r);
+    a=3.14*r*r;
+    printf("Area of circle is %f having the radius %d",a,r);
     return 0;
 }
